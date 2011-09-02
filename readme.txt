@@ -19,5 +19,5 @@ password     #建立登入帳號
 
 預設後台首頁
 網頁根目錄位於 web/
-http://your_host/admin.php/
+http://your_host/backend.php/
 
