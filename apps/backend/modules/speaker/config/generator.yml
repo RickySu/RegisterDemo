@@ -1,0 +1,47 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Speaker
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          speaker
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    css:                   nothing   #setting the css to a placeholder
+
+    config:
+      actions: ~
+      fields:
+          name:
+              label:       '姓名'
+          starttime:
+              label:       '演講預計開始時間'
+          endtime:
+              label:       '演講預計結束時間'
+          content:
+              label:       '個人介紹'
+          keynote:
+              label:       '講題大綱'
+          created_at:
+              label:       '建立時間'
+          updated_at:
+              label:       '更新時間'
+          slide:
+              label:       '投影片網址'
+      list:
+          title:           '講師列表'
+          display:         [id,name,email,starttime,endtime,created_at,updated_at]
+      filter:
+          display:         [name,email]
+      form:
+          display:
+               講師資訊:    [name,photo,content]
+               聯絡資訊:    [email,blog,plurk,twitter,gplus,facebook]
+               議程內容:    [starttime,endtime,keynote,slide]
+      edit:
+          title:           '編輯講師資料'
+      new:
+          title:           '新增講師資料'

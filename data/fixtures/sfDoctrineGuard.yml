@@ -1,0 +1,7 @@
+sfGuardPermission:
+    MemberAdmin:
+        name:           MemberAdmin
+        description:    '報名管理權限'
+    SpeakerAdmin:
+        name:           SpeakerAdmin
+        description:    '講師管理權限'

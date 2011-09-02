@@ -1,0 +1,59 @@
+Member:
+    actAs:
+        Timestampable:     ~
+    columns:
+        id:
+            type:     integer
+            primary:  true
+            autoincrement: true
+        name:
+            type:     string(255)
+            notnull:  true
+        email:
+            type:     string(255)
+            notnull:  true
+            unique:   true
+        phone:
+            type:     string(20)
+            notnull:  true
+        sex:
+            type:     varchar(1)
+            notnull:  true
+Speaker:
+    actAs:
+        Timestampable:     ~
+    columns:
+        id:
+            type:     integer
+            primary:  true
+            autoincrement: true
+        name:
+            type:     string(255)
+            notnull:  true
+        email:
+            type:     string(255)
+        starttime:
+            type:     timestamp
+            notnull:  true
+        endtime:
+            type:     timestamp
+            notnull:  true
+        blog:
+            type:     string(255)
+        plurk:
+            type:     string(255)
+        twitter:
+            type:     string(255)
+        gplus:
+            type:     string(255)
+        facebook:
+            type:     string(255)
+        slide:
+            type:     string(255)
+        content:
+            type:     text
+        keynote:
+            type:     text
+    indexes:
+        starttime_index:
+            fields:   [starttime]

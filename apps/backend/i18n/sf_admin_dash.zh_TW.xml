@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="zh_TW"
+  datatype="plaintext" original="messages" product-name="messages">
+    <header />
+    <body>
+      <trans-unit>
+        <source>Welcome to</source>
+        <target>歡迎來到</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Use a valid username and password to gain access to the administration console.</source>
+        <target>請輸入帳號和密碼進入管理後台</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Username</source>
+        <target>帳號</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Remember?</source>
+        <target>記住我?</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Password</source>
+        <target>密碼</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Login</source>
+        <target>登入</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Logout</source>
+        <target>登出</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Dashboard</source>
+        <target>後台管理</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

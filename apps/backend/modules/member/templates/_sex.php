@@ -1,0 +1,1 @@
+<?php echo ($member->getSex()=='m'?'男':'女')?>

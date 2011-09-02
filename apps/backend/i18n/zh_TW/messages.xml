@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="zh_TW" datatype="plaintext" original="messages" date="2011-03-24T14:42:44Z" product-name="messages">
+    <header/>
+    <body>
+
+      <trans-unit>
+        <source>Created at</source>
+        <target>建立時間</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Updated at</source>
+        <target>更新時間</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>User list</source>
+        <target>帳號列表</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New User</source>
+        <target>新增帳號</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Editing User "%%username%%"</source>
+        <target>編輯帳號 "%%username%%"</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Group list</source>
+        <target>群組列表</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New Group</source>
+        <target>新增群組</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Editing Group "%%name%%"</source>
+        <target>編輯群組 "%%name%%"</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Permission list</source>
+        <target>權限列表</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New Permission</source>
+        <target>新增權限</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Editing Permission "%%name%%"</source>
+        <target>編輯權限 "%%name%%"</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Name</source>
+        <target>名稱</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Description</source>
+        <target>描述</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Groups</source>
+        <target>群組</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Permissions</source>
+        <target>權限</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Password (again)</source>
+        <target>再次輸入密碼</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Is active</source>
+        <target>啟用帳號</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Is super admin</source>
+        <target>系統管理員</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Permissions and groups</source>
+        <target>權限和群組</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Last login</source>
+        <target>最後登入時間</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>sfGuardPermission</source>
+        <target>權限管理</target>
+      </trans-unit>
+
+
+    </body>
+  </file>
+</xliff>

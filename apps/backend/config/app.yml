@@ -1,0 +1,28 @@
+all:
+  sf_admin_dash:
+    web_dir:                      '/sfAdminDashPlugin'
+    image_dir:                    '/sfAdminDashPlugin/images/icons/'
+    default_image:                'config.png'
+    resize_mode:                  'thumbnail'
+    site:                         'PHPConf管理後台'
+    include_path:                 true
+    include_jquery_no_conflict:   false
+    logout:                       true
+    login_route:                  @sf_guard_signin
+    logout_route:                 @sf_guard_signout
+    items:
+      報名管理:
+          url:            member
+          credentials:    [MemberAdmin]
+      講師管理:
+          url:            speaker
+          credentials:    [SpeakerAdmin]
+      帳號管理:
+          url:            sfGuardUser
+          credentials:    [Super]
+      群組管理:
+          url:            sfGuardGroup
+          credentials:    [Super]
+      權限管理:
+          url:            sfGuardPermission
+          credentials:    [Super]
