@@ -28,10 +28,27 @@ generator:
       list:
           title:           '報名列表'
           display:         [id,name,email,phone,_sex,created_at,updated_at]
+          batch_actions:
+              _delete:
+                  credentials:    [MemberAdminDelete]
+          actions:
+              _new:
+                  credentials:    [MemberAdminEdit]
+          object_actions:
+              _edit:
+                  credentials:    [MemberAdminEdit]              
+              _delete:
+                  credentials:    [MemberAdminDelete]
       filter:
           display:         [name,email,phone,created_at,updated_at]
       form:    ~
-      edit:
-          title:           '編輯報名資料'
       new:
           title:           '新增報名資料'
+      edit:
+          title:           '編輯報名資料'
+          actions:
+              _delete:
+                  credentials:     [MemberAdminDelete]
+              _list:       ~
+              _save:
+                  credentials:     [MemberAdminEdit]

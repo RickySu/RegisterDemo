@@ -1,2 +1,10 @@
 all:
-    credentials:   [SpeakerAdmin]
+    credentials:   [MemberAdmin]
+create:
+    credentials:   [MemberAdminEdit]
+update:
+    credentials:   [MemberAdminEdit]
+delete:
+    credentials:   [MemberAdminDelete]
+BatchDelete:
+    credentials:   [MemberAdminDelete]

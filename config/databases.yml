@@ -5,3 +5,6 @@ all:
       dsn: 'mysql:host=localhost;dbname=xxx'
       username: root
       password: xxxx
+      attributes:
+        default_table_collate: utf8_general_ci
+        default_table_charset: utf8

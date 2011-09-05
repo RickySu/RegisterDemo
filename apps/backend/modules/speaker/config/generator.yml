@@ -34,6 +34,17 @@ generator:
       list:
           title:           '講師列表'
           display:         [id,name,email,starttime,endtime,created_at,updated_at]
+          batch_actions:
+              _delete:
+                  credentials:       [SpeakerAdminDelete]
+          actions:
+              _new:
+                  credentials:       [SpeakerAdminEdit]
+          object_actions:
+              _edit:
+                  credentials:       [SpeakerAdminEdit]
+              _delete:
+                  credentials:       [SpeakerAdminDelete]
       filter:
           display:         [name,email]
       form:
@@ -41,7 +52,13 @@ generator:
                講師資訊:    [name,photo,content]
                聯絡資訊:    [email,blog,plurk,twitter,gplus,facebook]
                議程內容:    [starttime,endtime,keynote,slide]
-      edit:
-          title:           '編輯講師資料'
       new:
           title:           '新增講師資料'
+      edit:
+          title:           '編輯講師資料'
+          actions:
+              _delete:      
+                  credentials:       [SpeakerAdminDelete]
+              _list:                 ~
+              _save:      
+                  credentials:       [SpeakerAdminEdit]
