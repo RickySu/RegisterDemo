@@ -56,8 +56,8 @@ sfGuardGroupPermission:
     Permission: sfGuardPermission_6
 sfGuardGroup:
   sfGuardGroup_1:
-    name: 報名管理-唯獨
-    description: 報名管理唯獨群組
+    name: 報名管理-唯讀
+    description: 報名管理唯讀群組
   sfGuardGroup_2:
     name: 報名管理-允許修改資料
     description: 報名管理-允許修改資料，但不可刪除資料。
@@ -65,8 +65,8 @@ sfGuardGroup:
     name: 報名管理-完全控制
     description: "報名管理-完全控制\r\n可以修改或是刪除資料"
   sfGuardGroup_4:
-    name: 講師管理-唯獨
-    description: 講師管理唯獨群組
+    name: 講師管理-唯讀
+    description: 講師管理唯讀群組
   sfGuardGroup_5:
     name: 講師管理-允許修改資料
     description: 講師管理-允許修改資料，但不可刪除資料。
