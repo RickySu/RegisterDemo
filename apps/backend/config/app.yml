@@ -10,19 +10,25 @@ all:
     logout:                       true
     login_route:                  @sf_guard_signin
     logout_route:                 @sf_guard_signout
-    items:
-      報名管理:
-          url:            member
-          credentials:    [MemberAdmin]
-      講師管理:
-          url:            speaker
-          credentials:    [SpeakerAdmin]
-      帳號管理:
-          url:            sfGuardUser
-          credentials:    [Super]
-      群組管理:
-          url:            sfGuardGroup
-          credentials:    [Super]
-      權限管理:
-          url:            sfGuardPermission
-          credentials:    [Super]
+    categories:
+        一般管理:
+            credentials:    [[MemberAdmin,SpeakerAdmin]]
+            items:
+                報名管理:
+                    url:            member
+                    credentials:    [MemberAdmin]
+                講師管理:
+                    url:            speaker
+                    credentials:    [SpeakerAdmin]
+        系統管理: 
+            credentials:    [Super]
+            items:
+                帳號管理:
+                    url:            sfGuardUser
+                    credentials:    [Super]
+                群組管理:
+                    url:            sfGuardGroup
+                    credentials:    [Super]
+                權限管理:
+                    url:            sfGuardPermission
+                    credentials:    [Super]
